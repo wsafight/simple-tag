@@ -1,5 +1,5 @@
 {
-  "name": "tool-name",
+  "name": "simple-tag",
   "author": "wsafight",
   "version": "0.0.1",
   "license": "MIT",
@@ -34,17 +34,21 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "module": "dist/tool-name.esm.js",
+  "module": "dist/simple-tag.esm.js",
   "size-limit": [
     {
-      "path": "dist/tool-name.cjs.production.min.js",
+      "path": "dist/simple-tag.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/tool-name.esm.js",
+      "path": "dist/simple-tag.esm.js",
       "limit": "10 KB"
     }
   ],
+  "dependencies": {
+    "el-ts": "0.0.3",
+    "components-wrapper": "0.0.1"
+  },
   "devDependencies": {
     "@size-limit/preset-small-lib": "8.1.1",
     "husky": "8.0.3",
