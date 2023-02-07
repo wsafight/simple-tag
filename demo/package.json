@@ -1,0 +1,14 @@
+{
+  "name": "demo",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "simple-tag": "0.0.3"
+  },
+  "devDependencies": {
+    "parcel": "2.8.3"
+  }
+}

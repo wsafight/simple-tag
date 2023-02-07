@@ -1,14 +1,17 @@
-import { El } from 'el-ts'
+import { El } from '@frameable/el'
 import { defineComponent } from 'components-wrapper'
 
 class SimpleTag extends El {
-
   render(html: Function) {
-    return html`
-    <div>123</div>
-    `
+    return html` <div>123</div> `
   }
 }
-const installComponent = (name: string) => defineComponent(SimpleTag)(name)
+
+const installComponent = (prefixName: string) =>
+  defineComponent(SimpleTag)(`${prefixName}-tag`)
+
+export {
+  SimpleTag
+}  
 
 export default installComponent

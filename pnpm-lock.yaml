@@ -1,8 +1,9 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@frameable/el': 0.7.3
   '@size-limit/preset-small-lib': 8.1.1
-  components-wrapper: 0.0.1
+  components-wrapper: 0.0.2
   dts-cli: 1.6.3
   el-ts: 0.0.3
   husky: 8.0.3
@@ -11,7 +12,8 @@ specifiers:
   typescript: 4.9.4
 
 dependencies:
-  components-wrapper: 0.0.1
+  '@frameable/el': 0.7.3
+  components-wrapper: 0.0.2
   el-ts: 0.0.3
 
 devDependencies:
@@ -1425,6 +1427,10 @@ packages:
       - supports-color
     dev: true
 
+  /@frameable/el/0.7.3:
+    resolution: {integrity: sha512-K4ZFbcsTqBl3c+398B+wxgbJR7Ox9bBluDZphlNULXn0F9yoKEJb9YWQCGNt5TVdQbgC3gFLlDc9RCxQlH7WiQ==}
+    dev: false
+
   /@humanwhocodes/config-array/0.11.8:
     resolution: {integrity: sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g==}
     engines: {node: '>=10.10.0'}
@@ -2542,7 +2548,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001450
-      electron-to-chromium: 1.4.286
+      electron-to-chromium: 1.4.287
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10_browserslist@4.21.5
     dev: true
@@ -2744,8 +2750,8 @@ packages:
     resolution: {integrity: sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==}
     dev: true
 
-  /components-wrapper/0.0.1:
-    resolution: {integrity: sha512-c4S+gD3PH+R7odjdE70SPIB7YaB92AU5kH4YZo60EdPjlpwFFMb+sPFejNalIqp20W6U6h2X3dFti7a9f+loWA==}
+  /components-wrapper/0.0.2:
+    resolution: {integrity: sha512-MFnO1QN8ZSJuLObWa7Y3YuqGVPIIgw9iz+p4yhA5jZI7Qwt29vgt+YTsG9ilKpay7gZvOaRkWSYX+jZ7L2zjpg==}
     engines: {node: '>=10'}
     dev: false
 
@@ -3052,8 +3058,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /electron-to-chromium/1.4.286:
-    resolution: {integrity: sha512-Vp3CVhmYpgf4iXNKAucoQUDcCrBQX3XLBtwgFqP9BUXuucgvAV9zWp1kYU7LL9j4++s9O+12cb3wMtN4SJy6UQ==}
+  /electron-to-chromium/1.4.287:
+    resolution: {integrity: sha512-Dj649q67z9oYp4dj7B80hdxb1ExIvy8KvrFqjCuGqFxUHk43b+VXQVFkD5zxAFmhvA6Mu9fou6ZQjJkMSXNFFg==}
     dev: true
 
   /emittery/0.8.1:

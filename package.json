@@ -1,7 +1,7 @@
 {
   "name": "simple-tag",
   "author": "wsafight",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -47,7 +47,8 @@
   ],
   "dependencies": {
     "el-ts": "0.0.3",
-    "components-wrapper": "0.0.1"
+    "@frameable/el": "0.7.3",
+    "components-wrapper": "0.0.2"
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "8.1.1",
